@@ -16,7 +16,10 @@ const HeroSection = () => {
           </div>
 
           <div className="lg:py-24">
-            <h2 className="text-3xl font-bold sm:text-4xl">
+            <div className="text-4xl font-bold sm:text-5xl text-cyan-600">
+              HealthEase{" "}
+            </div>
+            <h2 className="text-2xl font-bold sm:text-3xl">
               Connect to your doctor online
             </h2>
 
