@@ -43,7 +43,9 @@ export function DataTable<TData, TValue>({
       redirect("/");
     }
   }, [encryptedKey]);
-
+  useEffect(() => {
+    console.log("data  = ", data, " columns  : ", columns);
+  }, []);
   const table = useReactTable({
     data,
     columns,
