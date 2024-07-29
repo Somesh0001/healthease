@@ -53,3 +53,11 @@ declare type UpdateAppointmentParams = {
   appointment: Appointment;
   type: string;
 };
+
+declare interface Blog {
+  title: string;
+  author: string;
+  date: string;
+  description: string;
+  path: string;
+}
