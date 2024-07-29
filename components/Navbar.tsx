@@ -6,11 +6,17 @@ const Navbar = () => {
   return (
     <header className="bg-white">
       <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
-        <div className="flex h-16 items-center justify-between">
+        <div className="flex h-auto items-center justify-between">
           <div className="md:flex md:items-center md:gap-12">
             <a className="block text-teal-600" href="#">
               <span className="sr-only">Home</span>
-              <Image src={Logo.src} alt="Home" height={60} width={60} />
+              <Image
+                src={Logo.src}
+                alt="Home"
+                height={90}
+                width={90}
+                className="m-2"
+              />
             </a>
           </div>
 

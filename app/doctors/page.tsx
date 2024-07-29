@@ -7,7 +7,10 @@ const Doctors = async () => {
         <div className="text-4xl font-semibold">Our Doctors</div>
         <div>Meet our team of experienced and world-class doctors</div>
 
-        <section className="flex flex-col items-center">
+        <section
+          className="flex flex-col items-center w-full min-w-full
+        "
+        >
           <DoctorCard />
         </section>
 
